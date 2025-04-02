@@ -50,26 +50,12 @@ npm start
 ```
 5. Open http://localhost:3000 in your browser.
 
-#Project Structure
-wander-wise/
-├── src/
-│   ├── api/
-│   │   └── index.js        # API calls
-│   ├── components/
-│   │   ├── Header/
-│   │   ├── List/
-│   │   └── Map/
-│   ├── App.js              # Main application logic
-│   └── index.js            # Entry point
-├── public/
-├── package.json
-└── README.md
 
 ##Usage
--**1.Search for the place you want to explore.**
--**2.Search for restaurants or attractions.**
--**3.Click on a restaurant or attraction to view details. You can even visit their website or check Travel Advisor for advice and details.**
--**4.Filter results based on rating.**
+- **1.Search for the place you want to explore.**
+- **2.Search for restaurants or attractions.**
+- **3.Click on a restaurant or attraction to view details. You can even visit their website or check Travel Advisor for advice and details.**
+- **4.Filter results based on rating.**
 
 #Contributing
 Contributions are welcome! Feel free to fork the repo and submit pull requests.
