@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Wander Wise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Demo Link**: (https://wander-wise-travel-guide.netlify.app/)
 
-## Available Scripts
+Wander Wise is a web application that helps users explore dining and restaurants easily using the Google Maps API. The app provides restaurant listings based on user location, allows filtering by ratings, and displays details interactively on a map.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Interactive Map**: Displays restaurants in the selected area.
+- **Location-based Search**: Auto-detects user location and fetches nearby places.
+- **Filter by Rating**: Users can filter restaurants based on ratings.
+- **Dynamic List View**: Shows restaurants with details like name, reviews, and ratings.
+- **Google Places API Integration**: Provides real-time location data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js
+- Material-UI
+- Google Maps API (Places API)
+- Node.js (for environment setup)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js and npm installed
+- Google Maps API Key
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup and Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/wander-wise.git
+   cd wander-wise
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+  ```bash
+  npm install
+```
 
-### `npm run eject`
+3. Create a .env file in the root directory and add:
+```bash
+REACT_APP_GOOGLE_MAP_API_KEY=your_google_maps_api_key
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4.Start the development server:
+```sh
+npm start
+```
+5. Open http://localhost:3000 in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Project Structure
+wander-wise/
+├── src/
+│   ├── api/
+│   │   └── index.js        # API calls
+│   ├── components/
+│   │   ├── Header/
+│   │   ├── List/
+│   │   └── Map/
+│   ├── App.js              # Main application logic
+│   └── index.js            # Entry point
+├── public/
+├── package.json
+└── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#Usage
+-**1.Search for the place you want to explore.**
+-**2.Search for restaurants or attractions.**
+-**3.Click on a restaurant or attraction to view details. You can even visit their website or check Travel Advisor for advice and details.**
+-**4.Filter results based on rating.**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#Contributing
+Contributions are welcome! Feel free to fork the repo and submit pull requests.
 
-## Learn More
+#License
+This project is licensed under the MIT License.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#
+Happy Exploring with Wander Wise! 🚀
