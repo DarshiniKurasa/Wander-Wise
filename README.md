@@ -65,7 +65,7 @@ wander-wise/
 ├── package.json
 └── README.md
 
-#Usage
+##Usage
 -**1.Search for the place you want to explore.**
 -**2.Search for restaurants or attractions.**
 -**3.Click on a restaurant or attraction to view details. You can even visit their website or check Travel Advisor for advice and details.**
