@@ -60,7 +60,7 @@ npm start
 # Contributing
 Contributions are welcome! Feel free to fork the repo and submit pull requests.
 
-#License
+# License
 This project is licensed under the MIT License.
 
 #
